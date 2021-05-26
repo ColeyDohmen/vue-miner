@@ -1,8 +1,8 @@
 <template>
   <div class="Moon">
     <img
-      class="img-fluid"
-      src="../assets/img/moon4.png"
+      class="img-fluid fa fa-spin"
+      src="../assets/img/moon6.png"
     />
   </div>
 </template>
