@@ -18,5 +18,8 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+img:hover {
+  cursor: pointer;
+}
 
 </style>
