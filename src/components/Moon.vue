@@ -1,17 +1,24 @@
 <template>
   <div class="Moon">
     <img
-      class="img-fluid fa fa-spin"
+      class="img-fluid rounded-circle"
       src="../assets/img/moon6.png"
+      @click="mineMoon"
     />
   </div>
 </template>
 
 <script>
+import { mineService } from '../services/MineService'
 export default {
   name: 'Moon',
   setup() {
-    return {}
+    return {
+      mineMoon() {
+        mineService.mineMoon()
+        mineService.update()
+      }
+    }
   },
   components: {}
 }

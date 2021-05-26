@@ -11,6 +11,9 @@
       <Moon />
     </div>
   </div>
+  <h4>
+    Moon Dust:<div id="moonDust"></div>
+  </h4>
 </template>
 
 <script>
@@ -31,9 +34,8 @@ export default {
 }
  .back {
     background-image: url('https://d.wattpad.com/story_parts/676761663/images/15856e540cd2e8bd234625630146.gif');
-    background-size: cover;
+      background-attachment: fixed;
+  background-size: cover;
     }
-  // .back {
-  //   background-image: url('https://image.freepik.com/free-vector/background-circuit-board-neon_23-2148351172.jpg');
-  //   }
+
 </style>
