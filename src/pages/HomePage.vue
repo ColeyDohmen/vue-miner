@@ -10,22 +10,22 @@
       </h1>
       <div class="row">
         <h4 class=" align-items-center justify-content-center text-light float-left">
-          Moon Dust:<div id="moonDust"></div>
+          Total Moon Dust:<div id="moonDust"></div>
         </h4>
-        <div class="col-3">
+        <div class="col-12">
           <h4 class=" align-items-center justify-content-center text-light float-left">
             Upgrades:
           </h4>
-          <button class="btn btn-primary btn-sm mt-3 mb-3" onclick="buyUpgrade('shovel')">
+          <button class="btn btn-primary btn-sm mt-3 mb-3 mx-2" onclick="buyUpgrade('shovel')">
             Shovel(modx1)
           </button>
-          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('pickaxe')">
+          <button class="btn btn-primary btn-sm  mt-3 mb-3 mx-2" onclick="buyUpgrade('pickaxe')">
             Pickaxe(modx2)
           </button>
-          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('laser')">
+          <button class="btn btn-primary btn-sm  mt-3 mb-3 mx-2" onclick="buyUpgrade('laser')">
             Laser(modx4)
           </button>
-          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('rover')">
+          <button class="btn btn-primary btn-sm  mt-3 mb-3 mx-2" onclick="buyUpgrade('rover')">
             Rover(modx8)
           </button>
         </div>
