@@ -16,6 +16,18 @@
           <h4 class=" align-items-center justify-content-center text-light float-left">
             Upgrades:
           </h4>
+          <button class="btn btn-primary btn-sm mt-3 mb-3" onclick="buyUpgrade('shovel')">
+            Shovel(modx1)
+          </button>
+          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('pickaxe')">
+            Pickaxe(modx2)
+          </button>
+          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('laser')">
+            Laser(modx4)
+          </button>
+          <button class="btn btn-primary btn-sm  mt-3 mb-3" onclick="buyUpgrade('rover')">
+            Rover(modx8)
+          </button>
         </div>
       </div>
       <Moon />
